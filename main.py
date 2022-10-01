@@ -1,7 +1,9 @@
+import functions
+
 
 def main():
-    with open('meteorite_landings_data.txt', 'r') as meteor_data:
-        for line in meteor_data:
+    functions.create_list('meteorite_landings_data.txt')
+
 
 if __name__ == '__main__':
     main()
